@@ -3,9 +3,9 @@ ESERCIZIO DI OGGI: Vue To Do List
 Descrizione:
 Rifare l'esercizio della to do list.
 Ogni todo sarà un oggetto, formato da tre proprietà:
- 'TEXT', una stringa che indica il testo del todo
-'DONE', un booleano (true/false) che indica se il todo è stato fatto oppure no
-  id, un numero intero positivo incrementale  (univoco per ogni task).
+1:'TEXT', una stringa che indica il testo del todo
+2:'DONE', un booleano (true/false) che indica se il todo è stato fatto oppure no
+3: 'ID', un numero intero positivo incrementale  (univoco per ogni task).
 
 MILESTONE 1:
 Stampare all'interno di una lista HTML un item per ogni todo.
@@ -21,4 +21,4 @@ BONUS:
 1- oltre al click sul pulsante, intercettare anche il tasto ENTER per aggiungere il todo alla lista
 2- cliccando sul testo dell'item, invertire il valore della proprietà done del todo corrispondente (se 'DONE era uguale a 'FALSE', impostare 'TRUE' e viceversa).
 
-3- BONUS SUPER (superfacoltativo ): usare id invece di indici nei metodi
+BONUS SUPER (superfacoltativo ): usare id invece di indici nei metodi
