@@ -39,6 +39,15 @@ createApp({
         }
     },
     methods: {
+        changeDone(index){
+            let task = this.todo_list[index]
+            if(task.done){
+                task.done = false
+            }
+            else{
+                task.done = true;
+            }
+        }
 
     }
 }).mount('#app');

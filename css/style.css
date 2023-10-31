@@ -1,0 +1,17 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.todo-container{
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.line-through{
+    text-decoration: line-through
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
