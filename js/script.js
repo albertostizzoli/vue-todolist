@@ -52,6 +52,13 @@ createApp({
             console.log(index);
             this.todoList.splice(index, 1);
         },
-
+        addNewTask(){
+            let object = {
+                text: this.newTask,
+                done: false
+            }
+            this.todoList.push(object);
+            this.newTask = '';
+        },
     }
 }).mount('#app');
