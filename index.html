@@ -28,6 +28,7 @@
                                 <div class="cursor-pointer" @click="changeDone(index)">
                                      {{index + 1}} - {{item.text}}
                                 </div>
+                                <button class="btn btn-square btn-sm"><i class="fa-solid fa-xmark" @click="removeTask(index)"></i></button>
                             </li>
                         </ul>
                     </div>

@@ -40,14 +40,18 @@ createApp({
     },
     methods: {
         changeDone(index){
-            let task = this.todo_list[index]
+            let task = this.todoList[index]
             if(task.done){
                 task.done = false
             }
             else{
                 task.done = true;
             }
-        }
+        },
+        removeTask(index){
+            console.log(index);
+            this.todoList.splice(index, 1);
+        },
 
     }
 }).mount('#app');
